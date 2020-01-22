@@ -1,1 +1,1 @@
-web: gunicorn ft_craigslist.wsgi
+web: gunicorn main.wsgi
