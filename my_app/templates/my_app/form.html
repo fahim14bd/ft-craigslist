@@ -1,0 +1,7 @@
+<form action="{% url 'my_app:search' %}" method="get">
+  <!-- {% csrf_token %} -->
+  <input type="text" name="search" placeholder="search... (Type: 'Ping Pong')" value="{{ request.GET.search }}">
+  <button class="btn waves-effect waves-light" type="submit">Search
+    <i class="material-icons right">send</i>
+  </button>
+</form>
